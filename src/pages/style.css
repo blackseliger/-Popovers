@@ -1,0 +1,52 @@
+.button {
+  height: 48px;
+  border-radius: 8px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: center;
+  transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+  padding: 15px;
+  border: none;
+  cursor: var(--coursor-pointer);
+  background-color: #ff4b22;
+  color: aliceblue;
+
+}
+
+
+.popover__button {
+  position: fixed;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.popover {
+    background: #4263EB;
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 10px;
+    padding: 5px;
+
+    position: absolute;
+    transform: translateX(-50%);
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #DDE2E5;
+}
+
+.popover::after {
+  content: '';
+  border: 16px solid transparent;
+  border-top: 6px solid #4263EB;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
