@@ -1,17 +1,11 @@
 import Popover from "../../components/popovers";
 
-
-
 export default class Page {
     subElements = {};
     components = {};
 
 
     constructor() {
-        this.data = {
-            title: 'Popover title',
-            content: 'And here`s some amaizing content. It`s very engaging. Right?'
-        }
     }
 
 
